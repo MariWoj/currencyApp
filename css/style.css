@@ -1,0 +1,37 @@
+body {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(165, 162, 146);
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.currency__form {
+    text-align: center;
+}
+
+.currency__currency-name {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.currency__btn {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.result__currency {
+    margin-top: 25px;
+    font-size: 25px;
+    width: 100%;
+    padding: 40px;
+    letter-spacing: 1.5px;
+    background-color: #fff;
+    text-align: center;
+}
