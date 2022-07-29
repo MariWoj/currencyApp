@@ -4,7 +4,7 @@ btn.addEventListener('click', getData);
 
 function getData() {
     const code = document.querySelector('.currency__currency-name').value;
-    const url = `http://api.nbp.pl/api/exchangerates/rates/a/${code}/?format=json`;
+    const url = `https://api.nbp.pl/api/exchangerates/rates/a/${code}/?format=json`;
     fetch(url)
         .then(res => {
             if (res.status !== 200) {
